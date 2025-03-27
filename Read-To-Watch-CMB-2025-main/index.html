@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantastic Four Experience</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+
+    <!-- Intro -->
+    <section id="intro">
+        <h1 data-aos="fade-down">Read to Watch</h1>
+    </section>
+
+    <!-- Fantastic Four Video -->
+    <section id="fantastic-four">
+        <video autoplay muted loop id="background-video" data-aos="fade-in">
+            <source src="video/fantastic_four.mp4">
+        </video>
+        <p>The Fantastic Four: First Steps
+            July 25, 2025
+        </p>
+    </section>
+
+    <!-- Image Reveal -->
+    <section id="image-reveal" data-aos="fade-left">
+        <div class="images">
+            <img src="images/first_steps.jpg">
+            <img src="images/f4_2015.jpg">
+            <img src="images/f4_2004.jpg">
+        </div>
+    </section>
+
+<!-- Fantastic Four Comics -->
+    <h1 class="ctr">Comics To Read</h1>
+    <div class="comics-f4">
+        <img src="images/cog.jpg">
+        <img src="images/unstable_molecules.jpg">
+        <img src="images/ffhr.jpg">
+    </div>
+
+
+    <!-- AOS Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+    
+        });
+    </script>
+
+</body>
+</html>
